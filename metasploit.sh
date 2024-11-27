@@ -55,7 +55,7 @@ center "* Downloading..."
 if [ ! -d "${PREFIX}/opt" ]; then
   mkdir ${PREFIX}/opt
 fi
-git clone https://github.com/rapid7/metasploit-framework.git --depth=1 ${PREFIX}/opt/metasploit-framework
+git clone https://github.com/avirt1274/metasploit-framework.git --depth=1 ${PREFIX}/opt/metasploit-framework
 
 # Install Metasploit
 center "* Installation..."
